@@ -39,14 +39,31 @@ b {
 
 .copy_right_footer {
     position: fixed;
-    color: white;
+    font-weight: bolder;
     bottom: 0;
     width: 100%;
-    background-color: grey;
+    background-color:lightgray;
     text-align: center;
     line-height: 3;
 }
 
 span {
     color: red;
+    font-weight: bold;
+}
+
+#results {
+    background-color: lightpink;
+    border-radius: 20px;
+    height: 80px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 10px;
+    border: 3px solid grey;
+    border-width: 2px;
+    width: 1865px;
+}
+
+#results b {
+    color: darkmagenta;
 }
